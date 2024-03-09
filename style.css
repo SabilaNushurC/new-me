@@ -1,1 +1,71 @@
+/* Font Related Styles*/
 
+.work-sans-<uniquifier> {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+
+/* Header style */
+.bg-image{
+  background-image: url('images/banner/banner1.png');
+  height: 800px;
+  width: 1600px;
+}
+
+.introduction{
+  max-width: 50%;
+  padding-top: 100px;
+  padding-left: 600px;
+}
+.title{
+  font-size: 65px;
+  font-weight: 700;
+
+}
+
+.description{
+ 
+}
+
+.button{ padding-left: 1000px;}
+
+.button-one{
+  background: #F15B22;
+  border-radius: 5px;
+  color: white;
+  border: 0;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px 30px;
+  
+}
+
+/* secend section */
+
+.title{
+  font-size: 40px;
+  font-weight: 700;
+  margin-top:300px;
+}
+
+.banner {
+  display: flex;
+  margin-top: 200px;
+  padding:0 250px;
+  gap: 100px;
+  
+}
+ul {
+  list-style: none;
+}
+
+ul li {
+  font-size: 16px;
+}
+
+ul li:before {
+  content: '✓';
+  color: #16D887;
+}
